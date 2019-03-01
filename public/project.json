@@ -1,0 +1,33 @@
+{
+  "debugMode" : 1,
+  "noCache": false,
+  "showFPS" : false,
+  "frameRate" : 60,
+  "id" : "gameCanvas",
+  "renderMode" : 0,
+  "engineDir":"lib/",
+
+  "modules" : ["cocos2d", "extensions", "external"],
+
+  "jsList" : [
+    "src/resource.js",
+    "src/Global.js",
+    "src/fbinstant.js",
+    "src/widget/Button.js",
+    "src/widget/ButtonLabel.js",
+    "src/widget/ImageButton.js",
+    "src/Layer/BaseLayer.js",
+    "src/Layer/LoadingScene.js",
+    "src/Layer/SplashScene.js",
+  	"src/Layer/StartScene.js",
+    "src/Layer/GlobalSettingScene.js",
+    "src/Layer/PlaySettingScene.js",
+    "src/Layer/GameScene.js",
+    "src/Layer/BoardLayer.js",
+    "src/Layer/PauseLayer.js",
+    "src/Layer/GameOverScene.js",
+    "src/Layer/PrepareScene.js",
+    "src/Model/Dot.js",
+    "src/Network/GameConnect.js"
+  ]
+}
